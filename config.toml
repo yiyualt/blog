@@ -1,0 +1,9 @@
+languageCode = 'en-us'
+title = "Joseph Yu's Blog"
+theme = "ananke"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      xhtml = true
