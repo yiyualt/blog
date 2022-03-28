@@ -10,6 +10,8 @@ Initializing word vectors with those obtained from
 an unsupervised neural language model (e.g., word2vec) offers great gains in performance. Even a simple convolutional neural network (CNN) on top of the embeddings achieves surprising results, compared with the more sophisticated deep models.
 This work explores various CNN-based models for text classification task, and shows the importance of either using static pre-treined embeddings or further fine-tuning the embeddings. 
 
+The proposed model is shown in the figure. 
+
 ### Embeddings: Random vs Pre-trained (Word2Vec)
 ![your image](/images/1v.png)
 
