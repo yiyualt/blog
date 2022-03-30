@@ -4,7 +4,7 @@ date: 2022-03-29T00:59:43+09:00
 draft: false
 ---
 
-# Questions: How do you know if a sentence is more likely to appear than another sentence? Do you know how likely a certain word appearing to the end of a text chunk? Yeah, you may, and should know the answer. It is exactly the language modeling! 
+## Questions: How do you know if a sentence is more likely to appear than another sentence? Do you know how likely a certain word appearing to the end of a text chunk? Yeah, you may, and should know the answer. It is exactly the language modeling! 
 
 In the past, people used statistical approaches (e.g., n-gram and its variants) to solve language modeling task. But the flaws are apparent: it knows nothing about the word (makes no use of word similarity); the generated text are low-quality and many repeated text chunks due to the fixed n-gram models; when the vocabulary size and sequence length is long, the probability computation suffers from a ["high-dimension curse"](https://en.wikipedia.org/wiki/Curse_of_dimensionality).
 
