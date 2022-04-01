@@ -4,7 +4,7 @@ date: 2022-03-28T00:59:43+09:00
 draft: false
 ---
 
-## Questions: Do you know how to employ a character-level CNN models for text classification task? This paper gives you all the answers [[2]](https://arxiv.org/pdf/1509.01626.pdf).
+## Questions: Do you know how to employ a character-level CNN models for text classification task? This paper gives you all the answers [[1]](https://arxiv.org/pdf/1509.01626.pdf).
 This paper introduces how to employ a character-level convolutional neural network for text classification task. 
 Using character-level models has several advantages: (1) it is more suitable for user generated texts since the model can learn missing letter or misspelling patterns from the data. (2) it does not require external knowledge on the text, such as language, tokenization and so on. The structure of the model is shown in the figure. 
 
@@ -38,4 +38,4 @@ This paper has constructed a lot of datasets for text classification, including 
 ### Research Thinking
 
 
-[2] Character-level Convolutional Networks for Text Classification. Xiang Zhang, Junbo Zhao, and Yann LeCun. NIPS 2015.
+[1] Character-level Convolutional Networks for Text Classification. Xiang Zhang, Junbo Zhao, and Yann LeCun. NIPS 2015.
