@@ -1,6 +1,6 @@
 ---
 title: "A Zero Attentive Relevance Matching Network for Review Modeling in Recommendation System"
-date: 2022-04-07T00:59:43+09:00
+date: 2022-04-06T00:21:42+09:00
 draft: true
 ---
 
