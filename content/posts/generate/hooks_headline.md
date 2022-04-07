@@ -1,6 +1,6 @@
 ---
-title: "Hooks_headline"
-date: 2022-04-04T02:15:14+09:00
+title: "Hooks in the Headline: Learning to Generate Headlines with Controlled Styles"
+date: 2022-04-05T02:15:14+09:00
 draft: true
 ---
 ## Questions: Do you know how to transfer a source text to target style? Do you know how to generate a more fascinating headline to capture more people's attention? This paper gives you the answers [[1]](https://aclanthology.org/2020.acl-main.456.pdf).

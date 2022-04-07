@@ -10,11 +10,11 @@ Attention allows model to focus on different/important parts of source sequence 
 no always totally rewrite the sentence. For example, when doing reading comprehension or writing a summary of an article, we may directly copy-and-paste 
 several keywords or phrases of the original.  This paper proposes such phenomenon and refers to as copying.  
 Therefore, the authors explores the copy mechanism in seq2seq task, and further propose a model called "COPYNET".
-The experiments on three dataset/tasks, i.e., synthetic datasets, summarization datasets, and dialogue datasets, show
-the superiority of COPYNET to RNNsearch model (attention). 
 
 The COPYNET follows a standard Encoder-Decoder structure. The Encoder is not changed, whereas the Decoder fuses the information of Copy-Mode with Generate-Mode, which stands 
 for the probabilities of the current embedding to be kept, and be used for next generation, respectively. 
+The experiments on three dataset/tasks, i.e., synthetic datasets, summarization datasets, and dialogue datasets, show
+the superiority of COPYNET to RNNsearch model (attention). 
 
 
 ### Synthetic Dataset
