@@ -48,6 +48,8 @@ both MF and KNN -based models.
 
 - why it works
 
+- the idea is close to constrastive learning 
+
 ### Not good in this paper
 - the experiment parts could be extended to include more analysis and results, rather than solely providing main results.
 
