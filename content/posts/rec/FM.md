@@ -17,6 +17,7 @@ The advantages of Factorization Machine is as follows:
 interactions, factorization machine can achieve comparable results with the state-of-the-art factorization models in recommendation
 scenarios.
 
+
 ### FM vs SVM
 
 ![your image](/images/26.png)
@@ -27,5 +28,10 @@ SVM model fails.
 - why can it deal with sparsity problem?
 
 - which order of FM would be the best?
+
+
+### Comment 
+The really amazing thing about factorization machine is that, it can capture the interactions of 
+features in a very efficient way. 
 
 [1] Factorization Machines. Steffen Rendle. ICDM'10.
