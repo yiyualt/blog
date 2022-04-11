@@ -24,7 +24,6 @@ We see that, with the increase of feature dimensions, the loss of FM keeps decre
 SVM model fails.
 
 ### More details in the paper
-
 - why can it deal with sparsity problem?
 
 - which order of FM would be the best?
