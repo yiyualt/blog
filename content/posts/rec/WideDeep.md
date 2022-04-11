@@ -31,8 +31,7 @@ Therefore, the team from Google company employ the **deep neural network** to el
 
 ### Main idea
 The main idea is simple, which is: some features are suitable for wide network while others are more suitable for deep network. 
-The combination output of wide & deep parts are then weighted for the final prediction, where the weights are learned via training. 
-
+The combination output of wide & deep parts are then weighted for the final prediction, where the weights are learned via training.
 
 ### More in the paper
 - what does it mean "joint training"? 
