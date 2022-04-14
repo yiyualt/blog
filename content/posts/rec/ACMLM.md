@@ -18,6 +18,10 @@ We see that using beam-search decoding is much better than top-k sampling.
 ### Att2Seq vs. proposed
 ![your image](/images/32.png)
 We see that the proposed ACMLM does not outperform compared with Attr2seq or Ref2seq.
+Note that: Att2Seq takes [userID, itemID, review] as input, whereas the propose, Ref2Seq, or ACMLM takes the [userHistoryReivew, itemHistoryReivew] as input. 
+
+### Explanation
+The explanation is generated automatically based on the encoder-decoder structure. 
 
 
 ### Not good points
