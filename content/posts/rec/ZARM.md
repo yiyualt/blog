@@ -4,9 +4,12 @@ date: 2022-04-07T01:21:42+09:00
 draft: true
 ---
 
-### Model 
+## Questions: 
 
+This work combines the idea of static and dynamic user/item embeddings to capture more information of user/item. The proposed model is ZARM, which shows better performance than either NCF [2], DeepCoNN [3], NARRE [4] via extensive experiments. 
 
+### What are siamese models and interaction-based models? 
+This paper describes the review-based model in two classes: (1) siamses models that use user-reviews to represent a user and item-reviews to present an item. The user and items representations are thus **static/fixed** given an user and item IDs. (2) interaction based models that **dynamically** represent a user with respect to different items. That is to say, for a target user, given review A and reivew B, the representations of that user are different, which applies also to an target item. 
 
 ### Static Embedding vs. Dynamic Embedding
 
@@ -41,4 +44,16 @@ it would be better to train/design a model in an end-to-end training manner.
 
 This may be due to the difference between the number of reviews per item with the numer of reviews per user? (not verified)
 
+### Not good points
+- the related work is not well written, espeically the part of interaction-based text matching. 
+
+- the analysis of auxiliary task is not well studied
+### References
+
 [1] A Zero Attentive Relevance Matching Network for Review Modeling in Recommendation System. Hansi Zeng, et al. ECIR 21.
+
+[2]  Neural Collaborative Filtering. Xiangnan He, et al. WWW'17. 
+
+[3] Joint Deep Modeling of Users and Items Using Reviews for Recommendation. Lei Zheng, et al. WSDM'17. 
+
+[4] Neural Attentional Rating Regression with Review-level Explanations. Chong Chen, et al. WWW'18.
