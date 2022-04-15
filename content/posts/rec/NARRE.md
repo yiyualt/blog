@@ -25,5 +25,4 @@ Precision@1 means, at the percentage of 38.6, NARRE would select correctly the m
 - good human evaluation with crowd-sourcing
 
 
-
 [1] Neural Attentional Rating Regression with Review-level Explanations. Chong Chen, et al. WWW'18.
