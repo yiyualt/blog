@@ -4,7 +4,7 @@ date: 2022-04-07T01:21:42+09:00
 draft: true
 ---
 
-## Questions: 
+## Questions: CAN user embedding be dynamic instead of static? This paper gives you the answer [[1]](https://arxiv.org/pdf/2101.06387.pdf). 
 
 This work combines the idea of static and dynamic user/item embeddings to capture more information of user/item. The proposed model is ZARM, which shows better performance than either NCF [2], DeepCoNN [3], NARRE [4] via extensive experiments. 
 
